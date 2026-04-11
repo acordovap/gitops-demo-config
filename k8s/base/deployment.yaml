@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/acordovap/gitops-demo-app:sha-64e4f79
+          image: ghcr.io/acordovap/gitops-demo-app:sha-837f853
           ports:
             - containerPort: 8080
           readinessProbe:
